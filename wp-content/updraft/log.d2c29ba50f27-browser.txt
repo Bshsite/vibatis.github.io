@@ -1,0 +1,147 @@
+0000.407 (R) [notice] Looking for db archive: file name: backup_2024-05-23-2040_Vibatis_a969b4f27aff-db.gz
+0000.407 (R) [notice] Archive is expected to be size: 2236 KB: OK
+0000.410 (R) [notice] Looking for mu-plugins archive: file name: backup_2024-05-23-2040_Vibatis_a969b4f27aff-mu-plugins.zip
+0000.410 (R) [notice] Archive is expected to be size: 1.8 KB: OK
+0000.411 (R) [notice] Looking for plugins archive: file name: backup_2024-05-23-2040_Vibatis_a969b4f27aff-plugins.zip
+0000.412 (R) [notice] Archive is expected to be size: 23274 KB: OK
+0000.413 (R) [notice] Looking for themes archive: file name: backup_2024-05-23-2040_Vibatis_a969b4f27aff-themes.zip
+0000.414 (R) [notice] Archive is expected to be size: 5464.7 KB: OK
+0000.416 (R) [notice] Looking for uploads archive: file name: backup_2024-05-23-2040_Vibatis_a969b4f27aff-uploads.zip
+0000.416 (R) [notice] Archive is expected to be size: 42830.1 KB: OK
+0000.417 (R) [notice] Looking for others archive: file name: backup_2024-05-23-2040_Vibatis_a969b4f27aff-others.zip
+0000.418 (R) [notice] Archive is expected to be size: 7.2 KB: OK
+0000.419 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.421 (R) [notice] Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-db.gz, 2.2 Mb)
+0000.424 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.478 (R) [notice] Enabling Maintenance mode&#8230;
+0000.507 (R) [notice] Backup of: http://localhost/vibatis.github.io
+0000.507 (R) [notice] Content URL: http://localhost/vibatis.github.io/wp-content
+0000.507 (R) [notice] Uploads URL: http://localhost/vibatis.github.io/wp-content/uploads
+0000.507 (R) [notice] Old table prefix: wp_
+0000.507 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.507 (R) [notice] Site information: multisite = 0
+0000.507 (R) [notice] Site information: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.508 (R) [notice] New table prefix: v3_
+0000.510 (R) [notice] Processing table (InnoDB):  wp_options - will restore as: v3_options
+0000.788 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.798 (R) [notice] Atomic restore: renaming new table (v3_options) to final table name (wp_options)
+0000.843 (R) [notice] Processing table (InnoDB):  wp_users - will restore as: v3_users
+0000.859 (R) [notice] Atomic restore: dropping original table (wp_users)
+0000.865 (R) [notice] Atomic restore: renaming new table (v3_users) to final table name (wp_users)
+0000.871 (R) [notice] Processing table (InnoDB):  wp_usermeta - will restore as: v3_usermeta
+0000.885 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0000.891 (R) [notice] Atomic restore: renaming new table (v3_usermeta) to final table name (wp_usermeta)
+0000.897 (R) [notice] Processing table (InnoDB):  wp_commentmeta - will restore as: v3_commentmeta
+0000.909 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0000.915 (R) [notice] Atomic restore: renaming new table (v3_commentmeta) to final table name (wp_commentmeta)
+0000.921 (R) [notice] Processing table (InnoDB):  wp_comments - will restore as: v3_comments
+0000.939 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0000.945 (R) [notice] Atomic restore: renaming new table (v3_comments) to final table name (wp_comments)
+0000.951 (R) [notice] Processing table (InnoDB):  wp_links - will restore as: v3_links
+0000.962 (R) [notice] Atomic restore: dropping original table (wp_links)
+0000.967 (R) [notice] Atomic restore: renaming new table (v3_links) to final table name (wp_links)
+0000.973 (R) [notice] Processing table (InnoDB):  wp_postmeta - will restore as: v3_postmeta
+0001.214 (R) [notice] Database queries processed: 50 in 0.79 seconds
+0001.398 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0001.407 (R) [notice] Atomic restore: renaming new table (v3_postmeta) to final table name (wp_postmeta)
+0001.414 (R) [notice] Processing table (InnoDB):  wp_posts - will restore as: v3_posts
+0001.542 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0001.548 (R) [notice] Atomic restore: renaming new table (v3_posts) to final table name (wp_posts)
+0001.554 (R) [notice] Processing table (InnoDB):  wp_term_relationships - will restore as: v3_term_relationships
+0001.567 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0001.575 (R) [notice] Atomic restore: renaming new table (v3_term_relationships) to final table name (wp_term_relationships)
+0001.581 (R) [notice] Processing table (InnoDB):  wp_term_taxonomy - will restore as: v3_term_taxonomy
+0001.597 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0001.603 (R) [notice] Atomic restore: renaming new table (v3_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.610 (R) [notice] Processing table (InnoDB):  wp_termmeta - will restore as: v3_termmeta
+0001.623 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0001.628 (R) [notice] Atomic restore: renaming new table (v3_termmeta) to final table name (wp_termmeta)
+0001.634 (R) [notice] Processing table (InnoDB):  wp_terms - will restore as: v3_terms
+0001.650 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0001.655 (R) [notice] Atomic restore: renaming new table (v3_terms) to final table name (wp_terms)
+0001.661 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_actions - will restore as: v3_actionscheduler_actions
+0001.684 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0001.690 (R) [notice] Atomic restore: renaming new table (v3_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0001.696 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_claims - will restore as: v3_actionscheduler_claims
+0001.707 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0001.712 (R) [notice] Atomic restore: renaming new table (v3_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0001.718 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_groups - will restore as: v3_actionscheduler_groups
+0001.731 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0001.737 (R) [notice] Atomic restore: renaming new table (v3_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0001.742 (R) [notice] Processing table (InnoDB):  wp_actionscheduler_logs - will restore as: v3_actionscheduler_logs
+0001.756 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0001.761 (R) [notice] Atomic restore: renaming new table (v3_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0001.770 (R) [notice] Processing table (InnoDB):  wp_e_events - will restore as: v3_e_events
+0001.781 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0001.786 (R) [notice] Atomic restore: renaming new table (v3_e_events) to final table name (wp_e_events)
+0001.792 (R) [notice] Processing table (InnoDB):  wp_simply_static_pages - will restore as: v3_simply_static_pages
+0001.830 (R) [notice] Atomic restore: dropping original table (wp_simply_static_pages)
+0001.835 (R) [notice] Atomic restore: renaming new table (v3_simply_static_pages) to final table name (wp_simply_static_pages)
+0001.841 (R) [notice] Processing table (InnoDB):  wp_wpforms_logs - will restore as: v3_wpforms_logs
+0001.850 (R) [notice] Atomic restore: dropping original table (wp_wpforms_logs)
+0001.855 (R) [notice] Database queries processed: 100 in 1.43 seconds
+0001.855 (R) [notice] Atomic restore: renaming new table (v3_wpforms_logs) to final table name (wp_wpforms_logs)
+0001.861 (R) [notice] Processing table (InnoDB):  wp_wpforms_payment_meta - will restore as: v3_wpforms_payment_meta
+0001.873 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0001.879 (R) [notice] Atomic restore: renaming new table (v3_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0001.885 (R) [notice] Processing table (InnoDB):  wp_wpforms_payments - will restore as: v3_wpforms_payments
+0001.905 (R) [notice] Atomic restore: dropping original table (wp_wpforms_payments)
+0001.910 (R) [notice] Atomic restore: renaming new table (v3_wpforms_payments) to final table name (wp_wpforms_payments)
+0001.916 (R) [notice] Processing table (InnoDB):  wp_wpforms_tasks_meta - will restore as: v3_wpforms_tasks_meta
+0001.929 (R) [notice] Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0001.934 (R) [notice] Atomic restore: renaming new table (v3_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0001.940 (R) [notice] Processing table (InnoDB):  wp_wpmailsmtp_debug_events - will restore as: v3_wpmailsmtp_debug_events
+0001.952 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_debug_events)
+0001.958 (R) [notice] Atomic restore: renaming new table (v3_wpmailsmtp_debug_events) to final table name (wp_wpmailsmtp_debug_events)
+0001.964 (R) [notice] Processing table (InnoDB):  wp_wpmailsmtp_tasks_meta - will restore as: v3_wpmailsmtp_tasks_meta
+0001.975 (R) [notice] Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+0001.980 (R) [notice] Atomic restore: renaming new table (v3_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+0001.986 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable - will restore as: v3_yoast_indexable
+0002.006 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable)
+0002.012 (R) [notice] Atomic restore: renaming new table (v3_yoast_indexable) to final table name (wp_yoast_indexable)
+0002.018 (R) [notice] Processing table (InnoDB):  wp_yoast_indexable_hierarchy - will restore as: v3_yoast_indexable_hierarchy
+0002.032 (R) [notice] Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0002.037 (R) [notice] Atomic restore: renaming new table (v3_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0002.043 (R) [notice] Processing table (InnoDB):  wp_yoast_migrations - will restore as: v3_yoast_migrations
+0002.058 (R) [notice] Atomic restore: dropping original table (wp_yoast_migrations)
+0002.064 (R) [notice] Atomic restore: renaming new table (v3_yoast_migrations) to final table name (wp_yoast_migrations)
+0002.070 (R) [notice] Processing table (InnoDB):  wp_yoast_primary_term - will restore as: v3_yoast_primary_term
+0002.082 (R) [notice] Atomic restore: dropping original table (wp_yoast_primary_term)
+0002.087 (R) [notice] Atomic restore: renaming new table (v3_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0002.093 (R) [notice] Processing table (InnoDB):  wp_yoast_seo_links - will restore as: v3_yoast_seo_links
+0002.143 (R) [notice] Disabling Maintenance mode&#8230;
+0002.144 (R) [notice] Atomic restore: dropping original table (wp_yoast_seo_links)
+0002.149 (R) [notice] Atomic restore: renaming new table (v3_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0002.156 (R) [notice] Finished: lines processed: 130 in 1.73 seconds
+0002.156 (R) [notice] Cleaning up rubbish...
+0002.157 (R) [notice] This option was not selected.
+0002.251 (R) [notice] Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-mu-plugins.zip, 0 MB)
+0002.256 (R) [notice] Unzip progress: 2 out of 2 files (3.8 KB, mu-plugins/elementor-safe-mode.php)
+0002.258 (R) [notice] Moving old data out of the way...
+0002.259 (R) [notice] Moving unpacked backup into place...
+0002.261 (R) [notice] Cleaning up rubbish...
+0002.265 (R) [notice] Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-plugins.zip, 22.7 MB)
+0002.924 (R) [notice] Unzip progress: 1002 out of 5010 files (5.2 MB, plugins/elementor/assets/images/app/site-editor/product.svg)
+0003.390 (R) [notice] Unzip progress: 2003 out of 5010 files (40.5 MB, plugins/simply-static/vendor/a5hleyrich/wp-background-processing/bin/install-wp-tests.sh)
+0003.859 (R) [notice] Unzip progress: 3004 out of 5010 files (65 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ServerErrorResponseException.php)
+0004.328 (R) [notice] Unzip progress: 4005 out of 5010 files (71.4 MB, plugins/wordpress-seo/inc/sitemaps/class-sitemaps-cache-validator.php)
+0004.829 (R) [notice] Unzip progress: 5006 out of 5010 files (81.9 MB, plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/WordPressSDK.php)
+0004.834 (R) [notice] Unzip progress: 5010 out of 5010 files (81.9 MB, plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-elementor-editor.js)
+0004.836 (R) [notice] Moving old data out of the way...
+0005.347 (R) [notice] Moving unpacked backup into place...
+0005.846 (R) [notice] Cleaning up rubbish...
+0005.852 (R) [notice] Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-themes.zip, 5.3 MB)
+0006.400 (R) [notice] Unzip progress: 1002 out of 1045 files (17.8 MB, themes/astra/inc/schema/class-astra-wpfooter-schema.php)
+0006.424 (R) [notice] Unzip progress: 1045 out of 1045 files (18.3 MB, themes/index.php)
+0006.426 (R) [notice] Moving old data out of the way...
+0006.553 (R) [notice] Moving unpacked backup into place...
+0006.690 (R) [notice] Cleaning up rubbish...
+0006.695 (R) [notice] Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-uploads.zip, 41.8 MB)
+0007.297 (R) [notice] Unzip progress: 687 out of 687 files (71.1 MB, uploads/wpforms/themes/themes-custom.json)
+0007.300 (R) [notice] Moving old data out of the way...
+0007.381 (R) [notice] Moving unpacked backup into place...
+0007.464 (R) [notice] Cleaning up rubbish...
+0007.470 (R) [notice] Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-others.zip, 0 MB)
+0007.476 (R) [notice] Unzip progress: 5 out of 5 files (32.5 KB, w3tc-config/master.php)
+0007.481 (R) [notice] Cleaning up rubbish...
+0007.525 (R) [notice] Restore successful!
