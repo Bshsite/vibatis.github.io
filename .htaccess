@@ -1,3 +1,7 @@
+# BEGIN LSCACHE
+# END LSCACHE
+# BEGIN NON_LSCACHE
+# END NON_LSCACHE
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
@@ -14,9 +18,9 @@ RewriteRule . /vibatis.github.io/index.php [L]
 
 # END WordPress
 # BEGIN Simply Static
-# Les directives (lignes) entre « BEGIN Simply Static » et « END Simply Static » sont générées
-# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
-# Toute modification des directives situées entre ces marqueurs sera surchargée.
+# The directives (lines) between "BEGIN Simply Static" and "END Simply Static" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
 <Files "C:\xampp\htdocs\vibatis.github.io/wp-content/uploads\simply-static\8177a72f417d608bd5d73e668b076650-debug.txt">
 require all denied
 require host localhost

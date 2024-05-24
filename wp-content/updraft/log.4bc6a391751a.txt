@@ -1,0 +1,399 @@
+0000.000 (0) Opened log file at time: Fri, 24 May 2024 02:37:07 +0000 on http://localhost/vibatis.github.io
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-FNIDLT9 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 61.7M | 70M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 277281 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.015 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-05-24 02:37:07
+0000.017 (0) Semaphore (fd, wp_options) reset to 1
+0000.018 (0) Set semaphore last lock (fd) time to 2024-05-24 02:37:07
+0000.020 (0) Semaphore lock (fd) complete
+0000.028 (0) Backup run: resumption=0, nonce=4bc6a391751a, file_nonce=4bc6a391751a begun at=1716518227 (0s ago), job type=backup
+0000.030 (0) Scheduling a resumption (1) after 300 seconds (1716518527) in case this run gets aborted
+0000.039 (0) Checking if we have a zip executable available
+0000.042 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.043 (0) Creation of backups of directories: beginning
+0000.049 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.105 (0) Total entities for the zip file: 849 directories, 4391 files (0 skipped as non-modified), 87.3 MB
+0001.107 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 89427.1 KB, split: 409600 KB)
+0001.139 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.166 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.191 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.217 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.242 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.268 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.295 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.322 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.348 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.375 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.401 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0001.427 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0001.454 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0001.480 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0001.506 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0001.532 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0001.558 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0001.584 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0001.609 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0001.635 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0001.661 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0001.688 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0001.714 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0001.740 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0001.767 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0001.792 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0001.818 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0001.845 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0001.871 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0001.899 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0001.926 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0001.952 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0001.977 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0002.003 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0002.029 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0002.055 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0002.081 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0002.107 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0002.134 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0002.159 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 4000 files added (on-disk size: 0 KB)
+0002.185 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 4100 files added (on-disk size: 0 KB)
+0002.211 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 4200 files added (on-disk size: 0 KB)
+0002.238 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.tmp: 4300 files added (on-disk size: 0 KB)
+0062.936 (0) Creating zip file manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.list-temp.tmp)
+0062.953 (0) Successfully created zip file manifest (size: 359219)
+0063.113 (0) Created plugins zip (0) - 28194.3 KB in 63.1 s (447.1 KB/s) (sha1: 6a3c9c5fb642ef37978478a40f3a4a72775718bb, sha256: 0bf4c2355e9dcec6b7088ec4499e509d7a5fb15f2776b6d0b5d1ab466b97c856)
+0063.115 (0) Deleting old temporary file: log.0810950c0128-browser.txt
+0063.117 (0) Deleting old temporary file: log.0de46640f78b-browser.txt
+0063.117 (0) Deleting old temporary file: log.1a9e05ac83a3-browser.txt
+0063.118 (0) Deleting old temporary file: log.7fd8f42421d0-browser.txt
+0063.118 (0) Deleting old temporary file: log.d2c29ba50f27-browser.txt
+0063.124 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0063.125 (0) No remote despatch: user chose no remote backup service
+0063.127 (0) Recording as successfully uploaded: backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip
+0063.130 (0) Deleting zip manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip.list.tmp)
+0063.134 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0063.136 (0) Number of backup sets in history: 1; groups (db): 1
+0063.137 (0) Examining (for databases) backup set with group_id=0, nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0063.139 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0063.140 (0) Number of backup sets in history: 1; groups (files): 1
+0063.142 (0) Examining (for files) backup set with nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0063.142 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0063.143 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0063.151 (0) Beginning creation of dump of themes (split every: 400 MB)
+0063.378 (0) Total entities for the zip file: 311 directories, 734 files (0 skipped as non-modified), 18.3 MB
+0063.390 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 18777.4 KB, split: 409600 KB)
+0063.417 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0063.443 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0063.472 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0063.500 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0063.527 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0063.553 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0063.580 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0068.270 (0) Creating zip file manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.list-temp.tmp)
+0068.275 (0) Successfully created zip file manifest (size: 63966)
+0068.312 (0) Created themes zip (0) - 5464.7 KB in 5.2 s (1059.9 KB/s) (sha1: 8e0e269e201d4b104d73cf33a77ee45b91863883, sha256: b704be272402bf008e80c0e0a17b6d0f435c5737152ddabc9bd6bf40c7e05958)
+0068.318 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0068.320 (0) No remote despatch: user chose no remote backup service
+0068.321 (0) Recording as successfully uploaded: backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip
+0068.324 (0) Deleting zip manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip.list.tmp)
+0068.327 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0068.329 (0) Number of backup sets in history: 1; groups (db): 1
+0068.330 (0) Examining (for databases) backup set with group_id=0, nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0068.331 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.332 (0) Number of backup sets in history: 1; groups (files): 1
+0068.334 (0) Examining (for files) backup set with nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0068.334 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0068.335 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0068.342 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0068.344 (0) Looking for candidates to backup in: C:\xampp\htdocs\vibatis.github.io/wp-content/uploads
+0068.345 (0) finding files: 2018: adding to list (1)
+0068.347 (0) finding files: 2020: adding to list (2)
+0068.348 (0) finding files: 2021: adding to list (3)
+0068.349 (0) finding files: 2024: adding to list (4)
+0068.351 (0) finding files: ai-builder: adding to list (5)
+0068.352 (0) finding files: ast-block-templates-json: adding to list (6)
+0068.353 (0) finding files: astra-docs: adding to list (7)
+0068.355 (0) finding files: astra-sites: adding to list (8)
+0068.356 (0) finding files: elementor: adding to list (9)
+0068.357 (0) finding files: simply-static: adding to list (10)
+0068.358 (0) finding files: wpforms: adding to list (11)
+0068.360 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0068.505 (0) Total entities for the zip file: 133 directories, 552 files (0 skipped as non-modified), 71.1 MB
+0068.506 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 72793.8 KB, split: 409600 KB)
+0068.533 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0068.558 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0068.584 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.tmp: 300 files added (on-disk size: 0 KB)
+0068.610 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.tmp: 400 files added (on-disk size: 0 KB)
+0068.635 (0) Zip: backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.tmp: 500 files added (on-disk size: 0 KB)
+0081.816 (0) Creating zip file manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.list-temp.tmp)
+0081.820 (0) Successfully created zip file manifest (size: 71184)
+0082.058 (0) Created uploads zip (0) - 42828.5 KB in 13.7 s (3127.7 KB/s) (sha1: 3739bb929655b1b83374be36b252a846f7875db3, sha256: ea2ba7c80559c34458e38dedd871ebf5b9a1d9daa5015470c8dfb20409211bfe)
+0082.065 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0082.067 (0) No remote despatch: user chose no remote backup service
+0082.068 (0) Recording as successfully uploaded: backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip
+0082.071 (0) Deleting zip manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip.list.tmp)
+0082.074 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0082.076 (0) Number of backup sets in history: 1; groups (db): 1
+0082.078 (0) Examining (for databases) backup set with group_id=0, nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0082.079 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.081 (0) Number of backup sets in history: 1; groups (files): 1
+0082.082 (0) Examining (for files) backup set with nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0082.082 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.084 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0082.092 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0082.099 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0082.100 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 3.8 KB, split: 409600 KB)
+0082.109 (0) Creating zip file manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-mu-plugins.zip.list-temp.tmp)
+0082.111 (0) Successfully created zip file manifest (size: 71)
+0082.119 (0) Created mu-plugins zip (0) - 1.8 KB in 0 s (82.3 KB/s) (sha1: 0e733242005d140dd93c23284359a67d55535ba4, sha256: 2a45cf187565642788b5e71ec8802893805c175cfc1d63d35de8678e71e0452d)
+0082.125 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0082.127 (0) No remote despatch: user chose no remote backup service
+0082.129 (0) Recording as successfully uploaded: backup_2024-05-24-0237_Vibatis_4bc6a391751a-mu-plugins.zip
+0082.132 (0) Deleting zip manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-mu-plugins.zip.list.tmp)
+0082.135 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0082.137 (0) Number of backup sets in history: 1; groups (db): 1
+0082.138 (0) Examining (for databases) backup set with group_id=0, nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0082.138 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.140 (0) Number of backup sets in history: 1; groups (files): 1
+0082.141 (0) Examining (for files) backup set with nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0082.141 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.143 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0082.151 (0) Beginning backup of other directories found in the content directory (index: 0)
+0082.152 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0082.154 (0) Looking for candidates to backup in: C:\xampp\htdocs\vibatis.github.io/wp-content
+0082.155 (0) finding files: cache: skipping: excluded by options
+0082.157 (0) finding files: index.php: adding to list (1)
+0082.158 (0) finding files: index.php-old: adding to list (2)
+0082.160 (0) finding files: languages: adding to list (3)
+0082.161 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0082.163 (0) finding files: mu-plugins-old: adding to list (4)
+0082.164 (0) finding files: plugins: skipping: this is the plugins directory
+0082.166 (0) finding files: plugins-old: adding to list (5)
+0082.167 (0) finding files: themes: skipping: this is the themes directory
+0082.168 (0) finding files: themes-old: adding to list (6)
+0082.170 (0) finding files: updraft: skipping: this is the updraft directory
+0082.171 (0) finding files: upgrade: skipping: excluded by options
+0082.173 (0) finding files: upgrade-temp-backup: adding to list (7)
+0082.174 (0) finding files: upgrade-temp-backup-old: adding to list (8)
+0082.175 (0) finding files: uploads: skipping: this is the uploads directory
+0082.177 (0) finding files: uploads-old: adding to list (9)
+0082.178 (0) finding files: w3tc-config: adding to list (10)
+0082.179 (0) finding files: w3tc-config-old: adding to list (11)
+0082.202 (0) Total entities for the zip file: 9 directories, 78 files (0 skipped as non-modified), 4 MB
+0082.203 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 4066.3 KB, split: 409600 KB)
+0082.401 (0) Creating zip file manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-others.zip.list-temp.tmp)
+0082.403 (0) Successfully created zip file manifest (size: 4514)
+0082.418 (0) Created others zip (0) - 1122.4 KB in 0.2 s (4811.2 KB/s) (sha1: 3ab13e0ac6b94dfcc325df7bcdd7e990bad0e13c, sha256: 87d06a78507aef2b9ef0751245c4b1397676a84429ec6bff6814a1fc39347060)
+0082.424 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0082.425 (0) No remote despatch: user chose no remote backup service
+0082.427 (0) Recording as successfully uploaded: backup_2024-05-24-0237_Vibatis_4bc6a391751a-others.zip
+0082.429 (0) Deleting zip manifest (backup_2024-05-24-0237_Vibatis_4bc6a391751a-others.zip.list.tmp)
+0082.432 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0082.434 (0) Number of backup sets in history: 1; groups (db): 1
+0082.435 (0) Examining (for databases) backup set with group_id=0, nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0082.435 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.437 (0) Number of backup sets in history: 1; groups (files): 1
+0082.438 (0) Examining (for files) backup set with nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0082.438 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0082.439 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0082.450 (0) Saving backup status to database (elements: 10)
+0082.453 (0) Beginning creation of database dump (WordPress DB)
+0082.454 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0082.525 (0) Table wp_options: Total expected rows (via COUNT): 633
+0082.626 (0) Table wp_options: Rows added in this batch (next record: 3871): 628 (uncompressed bytes in this segment=7524081) in 0.16 seconds
+0082.634 (0) Table wp_options: finishing file(s) (2, 646.9 KB)
+0082.640 (0) Table wp_users: Total expected rows (via COUNT): 1
+0082.642 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.645 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1172) in 0.01 seconds
+0082.652 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0082.660 (0) Table wp_usermeta: Total expected rows (via COUNT): 31
+0082.662 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.665 (0) Table wp_usermeta: Rows added in this batch (next record: 36): 31 (uncompressed bytes in this segment=4320) in 0.01 seconds
+0082.674 (0) Table wp_usermeta: finishing file(s) (2, 1.8 KB)
+0082.682 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0082.686 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0082.694 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0082.701 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0082.704 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1466) in 0.01 seconds
+0082.711 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0082.723 (0) Table wp_links: Total expected rows (via COUNT): 0
+0082.725 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.00 seconds
+0082.731 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0082.749 (0) Table wp_postmeta: Total expected rows (via COUNT): 998
+0082.750 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.764 (0) Table wp_postmeta: Rows added in this batch (next record: 8326): 998 (uncompressed bytes in this segment=513220) in 0.03 seconds
+0082.772 (0) Table wp_postmeta: finishing file(s) (2, 52.8 KB)
+0082.787 (0) Table wp_posts: Total expected rows (via COUNT): 173
+0082.789 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.799 (0) Table wp_posts: Rows added in this batch (next record: 2238): 173 (uncompressed bytes in this segment=485171) in 0.02 seconds
+0082.806 (0) Table wp_posts: finishing file(s) (2, 41.5 KB)
+0082.812 (0) Table wp_term_relationships: Total expected rows (approximate): 10
+0082.816 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 10 (uncompressed bytes in this segment=835) in 0.01 seconds
+0082.822 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0082.829 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 6
+0082.831 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.834 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 8): 6 (uncompressed bytes in this segment=1041) in 0.01 seconds
+0082.841 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0082.850 (0) Table wp_termmeta: Total expected rows (via COUNT): 3
+0082.851 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.853 (0) Table wp_termmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=789) in 0.01 seconds
+0082.860 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0082.866 (0) Table wp_terms: Total expected rows (via COUNT): 6
+0082.867 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.869 (0) Table wp_terms: Rows added in this batch (next record: 8): 6 (uncompressed bytes in this segment=815) in 0.01 seconds
+0082.876 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0082.885 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 29
+0082.886 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.890 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 39): 29 (uncompressed bytes in this segment=13611) in 0.01 seconds
+0082.898 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1.8 KB)
+0082.905 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0082.908 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=626) in 0.01 seconds
+0082.915 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0082.922 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0082.923 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.926 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=697) in 0.01 seconds
+0082.932 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0082.939 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 78
+0082.940 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.944 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 78): 78 (uncompressed bytes in this segment=7366) in 0.01 seconds
+0082.950 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.3 KB)
+0082.968 (0) Table wp_e_events: Total expected rows (via COUNT): 0
+0082.971 (0) Table wp_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=511) in 0.01 seconds
+0082.978 (0) Table wp_e_events: finishing file(s) (2, 0.3 KB)
+0082.986 (0) Table wp_simply_static_pages: Total expected rows (via COUNT): 462
+0082.987 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0082.997 (0) Table wp_simply_static_pages: Rows added in this batch (next record: 7598): 462 (uncompressed bytes in this segment=178694) in 0.01 seconds
+0083.003 (0) Table wp_simply_static_pages: finishing file(s) (2, 8.8 KB)
+0083.013 (0) Table wp_wpforms_logs: Total expected rows (via COUNT): 0
+0083.016 (0) Table wp_wpforms_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=659) in 0.01 seconds
+0083.024 (0) Table wp_wpforms_logs: finishing file(s) (2, 0.4 KB)
+0083.033 (0) Table wp_wpforms_payment_meta: Total expected rows (via COUNT): 0
+0083.036 (0) Table wp_wpforms_payment_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=690) in 0.01 seconds
+0083.044 (0) Table wp_wpforms_payment_meta: finishing file(s) (2, 0.4 KB)
+0083.052 (0) Table wp_wpforms_payments: Total expected rows (via COUNT): 0
+0083.056 (0) Table wp_wpforms_payments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1650) in 0.01 seconds
+0083.062 (0) Table wp_wpforms_payments: finishing file(s) (2, 0.6 KB)
+0083.071 (0) Table wp_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0083.072 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.076 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (next record: 7): 4 (uncompressed bytes in this segment=912) in 0.01 seconds
+0083.084 (0) Table wp_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0083.092 (0) Table wp_wpmailsmtp_debug_events: Total expected rows (via COUNT): 11
+0083.093 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.095 (0) Table wp_wpmailsmtp_debug_events: Rows added in this batch (next record: 11): 11 (uncompressed bytes in this segment=3074) in 0.01 seconds
+0083.103 (0) Table wp_wpmailsmtp_debug_events: finishing file(s) (2, 0.7 KB)
+0083.111 (0) Table wp_wpmailsmtp_tasks_meta: Total expected rows (via COUNT): 1
+0083.113 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.114 (0) Table wp_wpmailsmtp_tasks_meta: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=704) in 0.01 seconds
+0083.123 (0) Table wp_wpmailsmtp_tasks_meta: finishing file(s) (2, 0.4 KB)
+0083.131 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 17
+0083.132 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.135 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 32): 17 (uncompressed bytes in this segment=13114) in 0.01 seconds
+0083.142 (0) Table wp_yoast_indexable: finishing file(s) (2, 2.9 KB)
+0083.148 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 14
+0083.152 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 14 (uncompressed bytes in this segment=1020) in 0.01 seconds
+0083.158 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0083.165 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0083.167 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.170 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1234) in 0.01 seconds
+0083.177 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0083.184 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0083.188 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0083.194 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0083.201 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 102
+0083.203 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.207 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 304): 102 (uncompressed bytes in this segment=16408) in 0.01 seconds
+0083.213 (0) Table wp_yoast_seo_links: finishing file(s) (2, 2 KB)
+0083.215 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\vibatis.github.io/wp-content/updraft/backup_2024-05-24-0237_Vibatis_4bc6a391751a-db.gz (line 1925, C:\xampp\htdocs\vibatis.github.io\wp-content\plugins\updraftplus\backup.php)
+0083.217 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_options.table.tmpr3872.gz (1/29/fopen): adding to final database dump
+0083.234 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_options.table.gz (2/29/fopen): adding to final database dump
+0083.235 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_users.table.tmpr2.gz (3/29/fopen): adding to final database dump
+0083.237 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_users.table.gz (4/29/fopen): adding to final database dump
+0083.239 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_usermeta.table.tmpr37.gz (5/29/fopen): adding to final database dump
+0083.240 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_usermeta.table.gz (6/29/fopen): adding to final database dump
+0083.242 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_commentmeta.table.tmpr0.gz (7/29/fopen): adding to final database dump
+0083.243 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_commentmeta.table.gz (8/29/fopen): adding to final database dump
+0083.244 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_comments.table.tmpr0.gz (9/29/fopen): adding to final database dump
+0083.246 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_comments.table.gz (10/29/fopen): adding to final database dump
+0083.247 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_links.table.tmpr0.gz (11/29/fopen): adding to final database dump
+0083.249 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_links.table.gz (12/29/fopen): adding to final database dump
+0083.250 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_postmeta.table.tmpr8327.gz (13/29/fopen): adding to final database dump
+0083.253 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_postmeta.table.gz (14/29/fopen): adding to final database dump
+0083.254 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_posts.table.tmpr2239.gz (15/29/fopen): adding to final database dump
+0083.257 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_posts.table.gz (16/29/fopen): adding to final database dump
+0083.258 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_term_relationships.table.tmpr100001.gz (17/29/fopen): adding to final database dump
+0083.259 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_term_relationships.table.gz (18/29/fopen): adding to final database dump
+0083.261 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_term_taxonomy.table.tmpr9.gz (19/29/fopen): adding to final database dump
+0083.262 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_term_taxonomy.table.gz (20/29/fopen): adding to final database dump
+0083.264 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_termmeta.table.tmpr4.gz (21/29/fopen): adding to final database dump
+0083.265 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_termmeta.table.gz (22/29/fopen): adding to final database dump
+0083.266 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_terms.table.tmpr9.gz (23/29/fopen): adding to final database dump
+0083.268 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_terms.table.gz (24/29/fopen): adding to final database dump
+0083.269 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_actions.table.tmpr40.gz (25/29/fopen): adding to final database dump
+0083.271 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_actions.table.gz (26/29/fopen): adding to final database dump
+0083.273 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/29/fopen): adding to final database dump
+0083.275 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_claims.table.gz (28/29/fopen): adding to final database dump
+0083.276 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_groups.table.tmpr4.gz (29/29/fopen): adding to final database dump
+0083.277 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_groups.table.gz (30/29/fopen): adding to final database dump
+0083.279 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_logs.table.tmpr79.gz (31/29/fopen): adding to final database dump
+0083.280 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_actionscheduler_logs.table.gz (32/29/fopen): adding to final database dump
+0083.282 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_e_events.table.tmpr0.gz (33/29/fopen): adding to final database dump
+0083.283 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_e_events.table.gz (34/29/fopen): adding to final database dump
+0083.285 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_simply_static_pages.table.tmpr7599.gz (35/29/fopen): adding to final database dump
+0083.286 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_simply_static_pages.table.gz (36/29/fopen): adding to final database dump
+0083.288 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_logs.table.tmpr0.gz (37/29/fopen): adding to final database dump
+0083.289 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_logs.table.gz (38/29/fopen): adding to final database dump
+0083.291 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_payment_meta.table.tmpr0.gz (39/29/fopen): adding to final database dump
+0083.292 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_payment_meta.table.gz (40/29/fopen): adding to final database dump
+0083.293 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_payments.table.tmpr0.gz (41/29/fopen): adding to final database dump
+0083.295 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_payments.table.gz (42/29/fopen): adding to final database dump
+0083.296 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_tasks_meta.table.tmpr8.gz (43/29/fopen): adding to final database dump
+0083.298 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpforms_tasks_meta.table.gz (44/29/fopen): adding to final database dump
+0083.299 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpmailsmtp_debug_events.table.tmpr12.gz (45/29/fopen): adding to final database dump
+0083.300 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpmailsmtp_debug_events.table.gz (46/29/fopen): adding to final database dump
+0083.302 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpmailsmtp_tasks_meta.table.tmpr2.gz (47/29/fopen): adding to final database dump
+0083.303 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_wpmailsmtp_tasks_meta.table.gz (48/29/fopen): adding to final database dump
+0083.305 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_indexable.table.tmpr33.gz (49/29/fopen): adding to final database dump
+0083.306 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_indexable.table.gz (50/29/fopen): adding to final database dump
+0083.307 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (51/29/fopen): adding to final database dump
+0083.309 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_indexable_hierarchy.table.gz (52/29/fopen): adding to final database dump
+0083.311 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_migrations.table.tmpr25.gz (53/29/fopen): adding to final database dump
+0083.312 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_migrations.table.gz (54/29/fopen): adding to final database dump
+0083.313 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_primary_term.table.tmpr0.gz (55/29/fopen): adding to final database dump
+0083.315 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_primary_term.table.gz (56/29/fopen): adding to final database dump
+0083.316 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_seo_links.table.tmpr305.gz (57/29/fopen): adding to final database dump
+0083.318 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db-table-wp_yoast_seo_links.table.gz (58/29/fopen): adding to final database dump
+0083.326 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db.gz: finished writing out complete database file (769.3 KB)
+0083.346 (0) Total database tables backed up: 29 (backup_2024-05-24-0237_Vibatis_4bc6a391751a-db.gz, size: 787844, sha1: 3c8ca284d059787e27eb07d0b7b98ef365fd625b, sha256: 5152c39d495e90c176d2681ac12b1c714097a834028923e60ff909e24154a7ff)
+0083.353 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-plugins.zip: plugins: This file has already been successfully uploaded
+0083.354 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-themes.zip: themes: This file has already been successfully uploaded
+0083.355 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-uploads.zip: uploads: This file has already been successfully uploaded
+0083.357 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0083.358 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-others.zip: others: This file has already been successfully uploaded
+0083.360 (0) backup_2024-05-24-0237_Vibatis_4bc6a391751a-db.gz: db: This file has not yet been successfully uploaded: will queue
+0083.361 (0) Saving backup history. Total backup size: 76.5 MB
+0083.364 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0083.368 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0083.369 (0) No remote despatch: user chose no remote backup service
+0083.371 (0) Recording as successfully uploaded: backup_2024-05-24-0237_Vibatis_4bc6a391751a-db.gz
+0083.375 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0083.376 (0) Number of backup sets in history: 2; groups (db): 1
+0083.378 (0) Examining (for databases) backup set with group_id=0, nonce=4bc6a391751a, datestamp=1716518227 (May 24 2024 02:37:07)
+0083.378 (0) This backup set is the backup set just made, so will not be deleted.
+0083.378 (0) Examining (for databases) backup set with group_id=0, nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0083.378 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0083.379 (0) Number of backup sets in history: 2; groups (files): 1
+0083.380 (0) Examining (for files) backup set with nonce=4bc6a391751a, datestamp=1716518227 (May 24 2024 02:37:07)
+0083.380 (0) This backup set is the backup set just made, so will not be deleted.
+0083.382 (0) This backup set is the backup set just made, so will not be deleted.
+0083.382 (0) This backup set is the backup set just made, so will not be deleted.
+0083.382 (0) This backup set is the backup set just made, so will not be deleted.
+0083.382 (0) This backup set is the backup set just made, so will not be deleted.
+0083.382 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0083.383 (0) Examining (for files) backup set with nonce=a969b4f27aff, datestamp=1716496830 (May 23 2024 20:40:30)
+0083.383 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0083.383 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0083.386 (0) Resume backup (4bc6a391751a, 0): finish run
+0083.392 (0) Decremented the semaphore (fd) by 1
+0083.394 (0) Semaphore (fd) unlocked
+0083.396 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0083.400 (0) No email will/can be sent - the user has not configured an email address.
+0083.401 (0) The backup succeeded and is now complete

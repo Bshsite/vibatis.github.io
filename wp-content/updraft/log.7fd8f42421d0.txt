@@ -1,0 +1,190 @@
+0000.017 () Opened log file at time: Thu, 23 May 2024 21:03:42 +0000 on http://localhost/vibatis.github.io
+0000.017 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-FNIDLT9 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.2M | 72M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.017 () Free space on disk containing Updraft's temporary directory: 276654.2 MB
+0000.038 () Restore setup, now closing connection and starting restore over AJAX.
+0000.005 () Opened log file at time: Thu, 23 May 2024 21:03:42 +0000 on http://localhost/vibatis.github.io
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.3 WP: 6.5.3 PHP: 8.2.12 (apache2handler, Windows NT DESKTOP-FNIDLT9 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=33554432) WPLANG: en_US Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 63M | 66M) multisite: N openssl: OpenSSL 3.0.11 19 Sep 2023 mcrypt: N LANG:  ZipArchive::addFile: N
+0000.005 () Free space on disk containing Updraft's temporary directory: 276654.2 MB
+0000.019 () Ensuring WP_Filesystem is setup for a restore
+0000.023 () WP_Filesystem is setup and ready for a restore
+0000.027 () Restore job started. Entities to restore: plugins, themes, uploads, mu-plugins, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_actionscheduler_actions","wp_actionscheduler_claims","wp_actionscheduler_groups","wp_actionscheduler_logs","wp_e_events","wp_simply_static_pages","wp_wpforms_logs","wp_wpforms_payment_meta","wp_wpforms_payments","wp_wpforms_tasks_meta","wp_wpmailsmtp_debug_events","wp_wpmailsmtp_tasks_meta","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.030 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\vibatis.github.io\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.040 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.043 () Entity: db
+0000.043 () restore_backup(backup_file=backup_2024-05-23-2040_Vibatis_a969b4f27aff-db.gz, type=db, info=a:0:{}, last_one=)
+0000.043 () Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-db.gz, 2.2 Mb)
+0000.043 () PHP event: code E_WARNING: mkdir(): File exists (line 558, C:\xampp\htdocs\vibatis.github.io\wp-admin\includes\class-wp-filesystem-direct.php)
+0000.046 () Database successfully unpacked
+0000.046 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.046 () Using direct MySQL access; value of use_mysqli is: 1
+0000.046 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.092 () Max packet size: 32 MB
+0000.092 () Entering maintenance mode
+0000.092 () Enabling Maintenance mode&#8230;
+0000.115 () Backup of: http://localhost/vibatis.github.io
+0000.115 () Content URL: http://localhost/vibatis.github.io/wp-content
+0000.115 () Uploads URL: http://localhost/vibatis.github.io/wp-content/uploads
+0000.115 () Old table prefix: wp_
+0000.115 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.115 () Site information: multisite=0
+0000.115 () Site information: sql_mode=NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.116 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.116 () New table prefix: or_
+0000.119 () Processing table (InnoDB): wp_options - will restore as: or_options
+0000.362 () Atomic restore: dropping original table (wp_options)
+0000.373 () Atomic restore: renaming new table (or_options) to final table name (wp_options)
+0000.382 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.416 () Processing table (InnoDB): wp_users - will restore as: or_users
+0000.434 () Atomic restore: dropping original table (wp_users)
+0000.441 () Atomic restore: renaming new table (or_users) to final table name (wp_users)
+0000.449 () Processing table (InnoDB): wp_usermeta - will restore as: or_usermeta
+0000.463 () Atomic restore: dropping original table (wp_usermeta)
+0000.470 () Atomic restore: renaming new table (or_usermeta) to final table name (wp_usermeta)
+0000.476 () Processing table (InnoDB): wp_commentmeta - will restore as: or_commentmeta
+0000.489 () Atomic restore: dropping original table (wp_commentmeta)
+0000.496 () Atomic restore: renaming new table (or_commentmeta) to final table name (wp_commentmeta)
+0000.503 () Processing table (InnoDB): wp_comments - will restore as: or_comments
+0000.521 () Atomic restore: dropping original table (wp_comments)
+0000.528 () Atomic restore: renaming new table (or_comments) to final table name (wp_comments)
+0000.534 () Processing table (InnoDB): wp_links - will restore as: or_links
+0000.546 () Atomic restore: dropping original table (wp_links)
+0000.553 () Atomic restore: renaming new table (or_links) to final table name (wp_links)
+0000.560 () Processing table (InnoDB): wp_postmeta - will restore as: or_postmeta
+0000.819 () Database queries processed: 50 in 0.77 seconds
+0000.972 () Atomic restore: dropping original table (wp_postmeta)
+0000.984 () Atomic restore: renaming new table (or_postmeta) to final table name (wp_postmeta)
+0000.992 () Processing table (InnoDB): wp_posts - will restore as: or_posts
+0001.179 () Atomic restore: dropping original table (wp_posts)
+0001.192 () Atomic restore: renaming new table (or_posts) to final table name (wp_posts)
+0001.201 () Processing table (InnoDB): wp_term_relationships - will restore as: or_term_relationships
+0001.215 () Atomic restore: dropping original table (wp_term_relationships)
+0001.222 () Atomic restore: renaming new table (or_term_relationships) to final table name (wp_term_relationships)
+0001.229 () Processing table (InnoDB): wp_term_taxonomy - will restore as: or_term_taxonomy
+0001.248 () Atomic restore: dropping original table (wp_term_taxonomy)
+0001.255 () Atomic restore: renaming new table (or_term_taxonomy) to final table name (wp_term_taxonomy)
+0001.262 () Processing table (InnoDB): wp_termmeta - will restore as: or_termmeta
+0001.277 () Atomic restore: dropping original table (wp_termmeta)
+0001.283 () Atomic restore: renaming new table (or_termmeta) to final table name (wp_termmeta)
+0001.290 () Processing table (InnoDB): wp_terms - will restore as: or_terms
+0001.307 () Atomic restore: dropping original table (wp_terms)
+0001.313 () Atomic restore: renaming new table (or_terms) to final table name (wp_terms)
+0001.320 () Processing table (InnoDB): wp_actionscheduler_actions - will restore as: or_actionscheduler_actions
+0001.344 () Atomic restore: dropping original table (wp_actionscheduler_actions)
+0001.350 () Atomic restore: renaming new table (or_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0001.357 () Processing table (InnoDB): wp_actionscheduler_claims - will restore as: or_actionscheduler_claims
+0001.368 () Atomic restore: dropping original table (wp_actionscheduler_claims)
+0001.374 () Atomic restore: renaming new table (or_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0001.380 () Processing table (InnoDB): wp_actionscheduler_groups - will restore as: or_actionscheduler_groups
+0001.396 () Atomic restore: dropping original table (wp_actionscheduler_groups)
+0001.402 () Atomic restore: renaming new table (or_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0001.408 () Processing table (InnoDB): wp_actionscheduler_logs - will restore as: or_actionscheduler_logs
+0001.422 () Atomic restore: dropping original table (wp_actionscheduler_logs)
+0001.428 () Atomic restore: renaming new table (or_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0001.434 () Processing table (InnoDB): wp_e_events - will restore as: or_e_events
+0001.445 () Atomic restore: dropping original table (wp_e_events)
+0001.451 () Atomic restore: renaming new table (or_e_events) to final table name (wp_e_events)
+0001.457 () Processing table (InnoDB): wp_simply_static_pages - will restore as: or_simply_static_pages
+0001.498 () Atomic restore: dropping original table (wp_simply_static_pages)
+0001.505 () Atomic restore: renaming new table (or_simply_static_pages) to final table name (wp_simply_static_pages)
+0001.511 () Processing table (InnoDB): wp_wpforms_logs - will restore as: or_wpforms_logs
+0001.521 () Atomic restore: dropping original table (wp_wpforms_logs)
+0001.527 () Database queries processed: 100 in 1.48 seconds
+0001.527 () Atomic restore: renaming new table (or_wpforms_logs) to final table name (wp_wpforms_logs)
+0001.533 () Processing table (InnoDB): wp_wpforms_payment_meta - will restore as: or_wpforms_payment_meta
+0001.546 () Atomic restore: dropping original table (wp_wpforms_payment_meta)
+0001.553 () Atomic restore: renaming new table (or_wpforms_payment_meta) to final table name (wp_wpforms_payment_meta)
+0001.559 () Processing table (InnoDB): wp_wpforms_payments - will restore as: or_wpforms_payments
+0001.579 () Atomic restore: dropping original table (wp_wpforms_payments)
+0001.585 () Atomic restore: renaming new table (or_wpforms_payments) to final table name (wp_wpforms_payments)
+0001.591 () Processing table (InnoDB): wp_wpforms_tasks_meta - will restore as: or_wpforms_tasks_meta
+0001.605 () Atomic restore: dropping original table (wp_wpforms_tasks_meta)
+0001.611 () Atomic restore: renaming new table (or_wpforms_tasks_meta) to final table name (wp_wpforms_tasks_meta)
+0001.617 () Processing table (InnoDB): wp_wpmailsmtp_debug_events - will restore as: or_wpmailsmtp_debug_events
+0001.631 () Atomic restore: dropping original table (wp_wpmailsmtp_debug_events)
+0001.637 () Atomic restore: renaming new table (or_wpmailsmtp_debug_events) to final table name (wp_wpmailsmtp_debug_events)
+0001.643 () Processing table (InnoDB): wp_wpmailsmtp_tasks_meta - will restore as: or_wpmailsmtp_tasks_meta
+0001.654 () Atomic restore: dropping original table (wp_wpmailsmtp_tasks_meta)
+0001.660 () Atomic restore: renaming new table (or_wpmailsmtp_tasks_meta) to final table name (wp_wpmailsmtp_tasks_meta)
+0001.666 () Processing table (InnoDB): wp_yoast_indexable - will restore as: or_yoast_indexable
+0001.688 () Atomic restore: dropping original table (wp_yoast_indexable)
+0001.695 () Atomic restore: renaming new table (or_yoast_indexable) to final table name (wp_yoast_indexable)
+0001.701 () Processing table (InnoDB): wp_yoast_indexable_hierarchy - will restore as: or_yoast_indexable_hierarchy
+0001.716 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0001.722 () Atomic restore: renaming new table (or_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0001.728 () Processing table (InnoDB): wp_yoast_migrations - will restore as: or_yoast_migrations
+0001.744 () Atomic restore: dropping original table (wp_yoast_migrations)
+0001.751 () Atomic restore: renaming new table (or_yoast_migrations) to final table name (wp_yoast_migrations)
+0001.756 () Processing table (InnoDB): wp_yoast_primary_term - will restore as: or_yoast_primary_term
+0001.768 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0001.774 () Atomic restore: renaming new table (or_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0001.781 () Processing table (InnoDB): wp_yoast_seo_links - will restore as: or_yoast_seo_links
+0001.794 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0001.832 () Unlocking database and leaving maintenance mode
+0001.832 () Disabling Maintenance mode&#8230;
+0001.832 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0001.838 () Atomic restore: renaming new table (or_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0001.845 () Finished: lines processed: 130 in 1.80 seconds
+0001.845 () Cleaning up rubbish...
+0001.846 () Begin search and replace (updraftplus_restored_db)
+0001.846 () [Database-replace-site-url] Database: search and replace site URL
+0001.846 () This option was not selected.
+0001.895 () Entity: mu-plugins
+0001.895 () restore_backup(backup_file=backup_2024-05-23-2040_Vibatis_a969b4f27aff-mu-plugins.zip, type=mu-plugins, info=a:2:{s:4:"path";s:55:"C:\xampp\htdocs\vibatis.github.io/wp-content/mu-plugins";s:11:"description";s:16:"Must-use plugins";}, last_one=)
+0001.895 () Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-mu-plugins.zip, 0 MB)
+0001.896 () Unzipping backup_2024-05-23-2040_Vibatis_a969b4f27aff-mu-plugins.zip to C:/xampp/htdocs/vibatis.github.io/wp-content/upgrade/091e3178/ using UpdraftPlus_PclZip, starting index 0
+0001.900 () Unzip progress: 2 out of 2 files (3.8 KB, mu-plugins/elementor-safe-mode.php)
+0001.901 () Moving old data: filesystem method / updraft_dir is potentially possible
+0001.901 () Moving old data: can potentially use wp_filesystem method / -old
+0001.901 () Moving old data out of the way...
+0001.902 () Moving unpacked backup into place...
+0001.904 () Cleaning up rubbish...
+0001.907 () Entity: plugins
+0001.907 () restore_backup(backup_file=backup_2024-05-23-2040_Vibatis_a969b4f27aff-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:52:"C:\xampp\htdocs\vibatis.github.io/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0001.908 () Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-plugins.zip, 22.7 MB)
+0001.908 () Unzipping backup_2024-05-23-2040_Vibatis_a969b4f27aff-plugins.zip to C:/xampp/htdocs/vibatis.github.io/wp-content/upgrade/92a1b57f/ using UpdraftPlus_PclZip, starting index 0
+0002.574 () Unzip progress: 1002 out of 5010 files (5.2 MB, plugins/elementor/assets/images/app/site-editor/product.svg)
+0003.042 () Unzip progress: 2003 out of 5010 files (40.5 MB, plugins/simply-static/vendor/a5hleyrich/wp-background-processing/bin/install-wp-tests.sh)
+0003.522 () Unzip progress: 3004 out of 5010 files (65 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Http/Exception/ServerErrorResponseException.php)
+0003.987 () Unzip progress: 4005 out of 5010 files (71.4 MB, plugins/wordpress-seo/inc/sitemaps/class-sitemaps-cache-validator.php)
+0004.451 () Unzip progress: 5006 out of 5010 files (81.9 MB, plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/app/WordPressSDK.php)
+0004.456 () Unzip progress: 5010 out of 5010 files (81.9 MB, plugins/wordpress-seo/vendor_prefixed/wordproof/wordpress-sdk/build/wordproof-elementor-editor.js)
+0004.458 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.458 () Moving old data: can potentially use wp_filesystem method / -old
+0004.458 () Moving old data out of the way...
+0004.948 () Top-level entities being moved: elementor, index.php, simply-static, updraftplus, wordpress-seo
+0004.970 () Moving unpacked backup into place...
+0005.459 () Top-level entities being moved: elementor, index.php, simply-static, updraftplus, wordpress-seo
+0005.470 () Cleaning up rubbish...
+0005.475 () Entity: themes
+0005.475 () restore_backup(backup_file=backup_2024-05-23-2040_Vibatis_a969b4f27aff-themes.zip, type=themes, info=a:3:{s:4:"path";s:51:"C:\xampp\htdocs\vibatis.github.io/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0005.476 () Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-themes.zip, 5.3 MB)
+0005.476 () Unzipping backup_2024-05-23-2040_Vibatis_a969b4f27aff-themes.zip to C:/xampp/htdocs/vibatis.github.io/wp-content/upgrade/50dab20f/ using UpdraftPlus_PclZip, starting index 0
+0006.036 () Unzip progress: 1002 out of 1045 files (17.8 MB, themes/astra/inc/schema/class-astra-wpfooter-schema.php)
+0006.059 () Unzip progress: 1045 out of 1045 files (18.3 MB, themes/index.php)
+0006.060 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.061 () Moving old data: can potentially use wp_filesystem method / -old
+0006.061 () Moving old data out of the way...
+0006.182 () Top-level entities being moved: astra, index.php
+0006.185 () Moving unpacked backup into place...
+0006.309 () Top-level entities being moved: astra, index.php
+0006.312 () Cleaning up rubbish...
+0006.317 () Entity: uploads
+0006.317 () restore_backup(backup_file=backup_2024-05-23-2040_Vibatis_a969b4f27aff-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:52:"C:\xampp\htdocs\vibatis.github.io/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0006.318 () Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-uploads.zip, 41.8 MB)
+0006.318 () Unzipping backup_2024-05-23-2040_Vibatis_a969b4f27aff-uploads.zip to C:/xampp/htdocs/vibatis.github.io/wp-content/upgrade/39a1dcd4/ using UpdraftPlus_PclZip, starting index 0
+0006.844 () Unzip progress: 687 out of 687 files (71.1 MB, uploads/wpforms/themes/themes-custom.json)
+0006.846 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.847 () Moving old data: can potentially use wp_filesystem method / -old
+0006.847 () Moving old data out of the way...
+0006.929 () Moving unpacked backup into place...
+0007.023 () Cleaning up rubbish...
+0007.028 () Entity: others
+0007.028 () restore_backup(backup_file=backup_2024-05-23-2040_Vibatis_a969b4f27aff-others.zip, type=others, info=a:2:{s:4:"path";s:44:"C:\xampp\htdocs\vibatis.github.io/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0007.028 () Unpacking backup... (backup_2024-05-23-2040_Vibatis_a969b4f27aff-others.zip, 0 MB)
+0007.029 () Unzipping backup_2024-05-23-2040_Vibatis_a969b4f27aff-others.zip to C:/xampp/htdocs/vibatis.github.io/wp-content/upgrade/bf1659d6/ using UpdraftPlus_PclZip, starting index 0
+0007.034 () Unzip progress: 5 out of 5 files (32.5 KB, w3tc-config/master.php)
+0007.040 () Cleaning up rubbish...
+0007.052 () Elementor's clear cache method exists and will be executed
+0007.077 () Purging cache directory: C:\xampp\htdocs\vibatis.github.io/wp-content/cache
+0007.082 () Restore successful!
+0007.082 () Restore successful
