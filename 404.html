@@ -4,22 +4,30 @@
   <meta charset="UTF-8">
   <title>Redirection Vibatis...</title>
   <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <script>
     const redirects = {
-      // anciennes pages principales -> accueil
-      "/nous.php": "index.html",
-      "/projets.php": "index.html",
-      "/index.php": "index.html",
-
-      // contact
+      // anciennes pages PHP
+      "/nous.php": "/",
+      "/projets.php": "/",
+      "/index.php": "/",
       "/contact.php": "/contact.html",
 
-      // projets -> fichiers actuels
+      "/projet-valmont.php": "/projet-valmont.html",
+      "/projet-sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+      "/projet-granites.php": "/projet-granites.html",
+      "/projet-rochelle.php": "/projet-rochelle.html",
+
+      // URLs propres / nouvelles tentées par Google ou par toi
+      "/nous": "/",
+      "/projets": "/",
+      "/contact": "/contact.html",
+
       "/maison-de-valmont": "/projet-valmont.html",
       "/maison-du-sieur-dargenteuil": "/projet-sieur-d-argenteuil.html",
       "/maison-des-granites": "/projet-granites.html",
-      "/maison-de-la-rochelle": "/projet-rochelle.html",
+      "/maison-de-la-rochelle": "/projet-rochelle.html"
     };
 
     let path = window.location.pathname.replace(/\/+$/, "");
@@ -34,12 +42,12 @@
 
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
       background: #111;
       color: #fff;
       text-align: center;
-      padding-top: 80px;
-      margin: 0;
+      padding: 80px 20px;
     }
 
     a {
