@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirection Vibatis...</title>
+  <meta name="robots" content="noindex">
+
+  <script>
+    const redirects = {
+      // anciennes pages principales -> accueil
+      "/nous.php": "/",
+      "/projets.php": "/",
+      "/index.php": "/",
+
+      // contact
+      "/contact.php": "/contact.html",
+
+      // projets -> fichiers actuels
+      "/projet-valmont.php": "/projet-valmont.html",
+      "/maison-valmont.php": "/projet-valmont.html",
+      "/valmont.php": "/projet-valmont.html",
+
+      "/projet-sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+      "/sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+      "/maison-sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+
+      "/projet-granites.php": "/projet-granites.html",
+      "/maison-granites.php": "/projet-granites.html",
+      "/granites.php": "/projet-granites.html",
+
+      "/projet-rochelle.php": "/projet-rochelle.html",
+      "/maison-rochelle.php": "/projet-rochelle.html",
+      "/rochelle.php": "/projet-rochelle.html"
+    };
+
+    let path = window.location.pathname.replace(/\/+$/, "");
+    if (path === "") path = "/";
+
+    const target = redirects[path];
+
+    if (target) {
+      window.location.replace(target);
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding-top: 80px;
+      margin: 0;
+    }
+
+    a {
+      color: #9cf;
+    }
+  </style>
+</head>
+<body>
+  <h1>Page non trouvée</h1>
+  <p>Redirection automatique si une correspondance existe...</p>
+  <p><a href="/">Retour à l'accueil</a></p>
+</body>
+</html>
