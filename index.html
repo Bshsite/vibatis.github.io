@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <meta name="google" content="notranslate">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Vibatis Promotion Inc | Architecture & Construction de Prestige à Québec</title>
+
+    <title>Vibatis Promotion Inc | Promotion immobilière à Québec | Projets résidentiels haut de gamme</title>
     <link rel="icon" href="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/icon-vibatis.webp" type="image/webp">
-    <meta name="description" content="Vibatis Promotion Inc. : Entrepreneur général d'exception à Québec. Spécialiste en construction contemporaine et rénovation de prestige à Sainte-Foy et Lac-Beauport.">
-    <meta name="keywords" content="Vibatis, construction prestige Québec, entrepreneur général Sainte-Foy, rénovation luxe Lac-Beauport, architecture contemporaine">
+    <meta name="description" content="Vibatis Promotion Inc est une entreprise de promotion immobilière à Québec. Découvrez nos projets résidentiels haut de gamme à Sainte-Foy, Lac-Beauport et dans la région de Québec.">
+    <meta name="keywords" content="Vibatis, Vibatis Promotion Inc, promotion immobilière Québec, promoteur immobilier Québec, projets résidentiels Québec, immobilier haut de gamme, maisons neuves Québec">
+
+    <link rel="canonical" href="https://vibatis.com/">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:title" content="Vibatis Promotion Inc | Promotion immobilière à Québec">
+    <meta property="og:description" content="Découvrez les projets résidentiels haut de gamme de Vibatis Promotion Inc à Québec.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vibatis.com/">
+    <meta property="og:image" content="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp">
 
     <link rel="preload" as="image" href="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp">
 
     <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
         .hero-container {
             position: relative;
@@ -24,31 +34,31 @@
             z-index: 10;
         }
 
-        .text-box-overlay { 
-            background-color: rgba(0, 0, 0, 0.15); 
-            padding: 20px 30px; 
-            border-radius: 4px; 
-            backdrop-filter: none; 
+        .text-box-overlay {
+            background-color: rgba(0, 0, 0, 0.18);
+            padding: 20px 30px;
+            border-radius: 4px;
+            backdrop-filter: none;
             -webkit-backdrop-filter: none;
             width: 90%;
-            max-width: 800px;
+            max-width: 900px;
             text-align: center;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .slider { overflow: hidden; height: 100%; position: relative; }
-        .slide-track { 
-            display: flex; 
-            width: 900%; 
-            animation: scroll-stop-8 24s infinite; 
-            height: 100%; 
+        .slide-track {
+            display: flex;
+            width: 900%;
+            animation: scroll-stop-8 24s infinite;
+            height: 100%;
         }
-        .slide { 
-            flex: 0 0 11.111%; 
-            background-size: cover; 
-            background-position: center; 
-            height: 100%; 
+        .slide {
+            flex: 0 0 11.111%;
+            background-size: cover;
+            background-position: center;
+            height: 100%;
             background-color: #0f172a;
         }
 
@@ -64,16 +74,15 @@
             100% { transform: translateX(-88.888%); }
         }
 
-        /* Adaptation mobile pour glisser avec le doigt */
         @media screen and (max-width: 768px) {
             #project-track {
                 overflow-x: auto;
                 scroll-snap-type: x mandatory;
                 -webkit-overflow-scrolling: touch;
-                scrollbar-width: none; /* Cache la barre Firefox */
+                scrollbar-width: none;
             }
             #project-track::-webkit-scrollbar {
-                display: none; /* Cache la barre Chrome/Safari/Edge */
+                display: none;
             }
             .project-item {
                 scroll-snap-align: center;
@@ -92,22 +101,20 @@
             position: relative;
         }
 
-        .logo-vibatis {
-            height: 60px;
-            width: auto;
+        body {
+            -webkit-user-select: none;
+            user-select: none;
         }
-
-        body { -webkit-user-select: none; user-select: none; }
     </style>
 </head>
+
 <body class="bg-white text-slate-900 font-sans antialiased" oncontextmenu="return false;">
 
     <nav class="bg-white shadow-sm p-4 flex justify-between items-center sticky top-0 z-50">
-        
-        <a href="#" class="flex items-center">
+        <a href="/" class="flex items-center" aria-label="Accueil Vibatis Promotion Inc">
             <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/logo-vibatis.webp"
-                alt="Vibatis Promotion Inc. - Entrepreneur en construction de prestige à Québec" 
-                class="h-10 w-auto" 
+                alt="Vibatis Promotion Inc - Promotion immobilière à Québec"
+                class="h-10 w-auto"
                 oncontextmenu="return false;" ondragstart="return false;">
         </a>
 
@@ -118,33 +125,37 @@
             <a href="#vision" class="hidden md:block text-slate-900 font-medium hover:text-[#C5A059] transition-colors">
                 Notre Vision
             </a>
-            
-            <a href="contact.html" 
-            class="inline-block whitespace-nowrap bg-slate-900 text-white px-6 py-2 rounded-sm hover:bg-[#C5A059] transition-all duration-300 shadow-md">
+
+            <a href="contact.html"
+               class="inline-block whitespace-nowrap bg-slate-900 text-white px-6 py-2 rounded-sm hover:bg-[#C5A059] transition-all duration-300 shadow-md">
                 Contact
             </a>
         </div>
-
     </nav>
 
     <header class="relative h-[80vh] overflow-hidden text-white">
         <div class="hero-container">
             <div class="text-box-overlay">
-                <h1 class="text-3xl md:text-5xl font-extralight tracking-wide mb-6">L’art de vivre rencontre la passion de construire.</h1>
-                <div class="w-24 h-px bg-white/30 mx-auto mb-6"></div> 
-                <p class="text-lg md:text-xl font-extralight italic opacity-90">
-                    "Vibatis Promotion Inc vous invite à explorer le monde de la construction contemporaine."
+                <h1 class="text-3xl md:text-5xl font-extralight tracking-wide mb-6">
+                    Vibatis Promotion Inc - Promotion immobilière à Québec
+                </h1>
+                <div class="w-24 h-px bg-white/30 mx-auto mb-6"></div>
+                <p class="text-lg md:text-xl font-extralight italic opacity-90 mb-4">
+                    L’art de vivre rencontre la passion de construire.
+                </p>
+                <p class="text-base md:text-lg font-extralight opacity-90 max-w-3xl mx-auto">
+                    Vibatis Promotion Inc développe des projets résidentiels haut de gamme à Québec, en misant sur la qualité, le design contemporain et des emplacements d’exception.
                 </p>
             </div>
         </div>
-        
+
         <div class="slider absolute inset-0 z-0">
             <div class="slide-track">
                 <div class="slide" role="img" aria-label="Maison de luxe Valmont Sainte-Foy" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp');"></div>
                 <div class="slide" role="img" aria-label="Salon contemporain double hauteur" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-contemporaine-salon-double-hauteur-valmont-sainte-foy-quebec-quebec-vibatis.webp');"></div>
-                <div class="slide" role="img" aria-label="Architecture neuve Sieur d'Argenteuil" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-neuve-design-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp');"></div>
+                <div class="slide" role="img" aria-label="Projet résidentiel Sieur d'Argenteuil à Sainte-Foy" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-neuve-design-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp');"></div>
                 <div class="slide" role="img" aria-label="Intérieur maison neuve design" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-neuve-sejour-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp');"></div>
-                <div class="slide" role="img" aria-label="Rénovation Lac-Beauport Granites" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-granites-lac-beauport-quebec-vibatis.webp');"></div>
+                <div class="slide" role="img" aria-label="Projet Granites à Lac-Beauport" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-granites-lac-beauport-quebec-vibatis.webp');"></div>
                 <div class="slide" role="img" aria-label="Entrée salon contemporain Lac-Beauport" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-contemporaine-entree-salon-granites-lac-beauport-quebec-vibatis.webp');"></div>
                 <div class="slide" role="img" aria-label="Maison unifamiliale moderne Rochelle" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-unifamiliale-moderne-rochelle-sainte-foy-quebec-vibatis.webp');"></div>
                 <div class="slide" role="img" aria-label="Salon maison moderne neuve" style="background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-moderne-neuve-salon-rochelle-sainte-foy-quebec-vibatis.webp');"></div>
@@ -153,16 +164,41 @@
         </div>
     </header>
 
+    <section class="py-16 px-6 max-w-5xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-10">
+            <div>
+                <h2 class="text-2xl font-bold mb-5 text-slate-800 tracking-tight">Promoteur immobilier à Québec</h2>
+                <p class="mb-4 leading-relaxed text-slate-600">
+                    Vibatis Promotion Inc est une entreprise de promotion immobilière à Québec spécialisée dans le développement de projets résidentiels haut de gamme.
+                </p>
+                <p class="leading-relaxed text-slate-600">
+                    Nous mettons en valeur des réalisations distinctives à Sainte-Foy, Lac-Beauport et dans la grande région de Québec, avec une attention particulière portée à la qualité, au design et à l’expérience résidentielle.
+                </p>
+            </div>
+            <div class="bg-slate-50 p-8 rounded-lg border-l-4 border-slate-900 text-slate-600 shadow-sm">
+                <p class="mb-4 leading-relaxed">
+                    Nos projets résidentiels allient vision, emplacement stratégique et standards élevés de réalisation.
+                </p>
+                <p class="leading-relaxed">
+                    Vibatis s’adresse à une clientèle à la recherche d’un immobilier contemporain, durable et haut de gamme.
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section id="vision" class="py-20 px-6 max-w-5xl mx-auto">
         <div class="grid md:grid-cols-2 gap-12 items-center">
             <div>
-                <h2 class="text-2xl font-bold mb-6 text-slate-800 tracking-tight">Notre Vision Unique</h2>
+                <h2 class="text-2xl font-bold mb-6 text-slate-800 tracking-tight">Notre Vision</h2>
                 <p class="mb-4 leading-relaxed text-slate-600">
-                    Nos constructions se démarquent par leur caractère unique. Chaque réalisation incarne une authenticité inégalée dans le paysage de Québec.
+                    Chaque projet immobilier développé par Vibatis se distingue par son identité propre, son intégration soignée à son environnement et sa qualité d’exécution.
+                </p>
+                <p class="leading-relaxed text-slate-600">
+                    Notre approche vise à créer des espaces résidentiels durables, désirables et à forte valeur, en cohérence avec les attentes d’une clientèle exigeante.
                 </p>
             </div>
             <div class="bg-slate-50 p-8 rounded-lg border-l-4 border-slate-900 italic text-slate-500 shadow-sm">
-                "Offrir des résultats exceptionnels, quel que soit l’ampleur du projet."
+                "Offrir des projets résidentiels exceptionnels, pensés pour durer."
             </div>
         </div>
     </section>
@@ -172,8 +208,8 @@
             <div class="flex flex-col md:flex-row items-center gap-16">
                 <div class="w-full md:w-1/2">
                     <div class="relative group">
-                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/vivre-au-pied-des-montagnes-quartier-norr-saint-ferreol-les-neiges.webp" 
-                             alt="Quartier NØRR - Maisons scandinaves au pied des montagnes à Saint-Ferréol-les-Neiges" 
+                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/vivre-au-pied-des-montagnes-quartier-norr-saint-ferreol-les-neiges.webp"
+                             alt="Quartier NØRR - Maisons scandinaves au pied des montagnes à Saint-Ferréol-les-Neiges"
                              class="rounded-sm shadow-2xl transition-transform duration-700 group-hover:scale-105">
                         <div class="absolute -bottom-4 -left-4 bg-slate-900 text-white p-6 shadow-xl">
                             <p class="text-3xl font-light tracking-[0.3em]">NØRR</p>
@@ -187,7 +223,7 @@
                         L'harmonie du <br><span class="font-sans">design nordique</span>
                     </h3>
                     <p class="text-lg text-slate-600 mb-8 leading-relaxed font-extralight">
-                        Le quartier <strong>NØRR</strong> incarne notre vision d'un habitat durable. Nos <strong>maisons jumelées</strong> se distinguent par une <strong>rigueur d'exécution</strong> et un souci du détail qui garantit une pérennité architecturale.
+                        Le quartier <strong>NØRR</strong> reflète une vision contemporaine de l’habitat résidentiel. Ce projet met de l’avant des maisons jumelées distinctives au pied des montagnes, dans un environnement naturel recherché.
                     </p>
                     <a href="projet-norr.html" class="inline-block border border-slate-900 text-slate-900 px-10 py-4 hover:bg-slate-900 hover:text-white transition duration-300 text-xs font-bold uppercase tracking-widest">
                         Explorer le projet NØRR
@@ -199,17 +235,17 @@
 
     <section id="projets" class="py-20 bg-white overflow-hidden">
         <div class="max-w-6xl mx-auto px-6 relative">
-            <h2 class="text-3xl font-bold mb-12 text-center text-slate-800 tracking-tight">Réalisations de Prestige</h2>
+            <h2 class="text-3xl font-bold mb-12 text-center text-slate-800 tracking-tight">Projets résidentiels</h2>
 
             <div class="relative px-2">
-                <button onclick="moveSlider(-1)" class="absolute left-2 md:left-[-25px] top-[144px] -translate-y-1/2 z-30 bg-white/90 p-3 rounded-full shadow-xl border border-slate-100 hover:bg-slate-900 hover:text-white transition block">
+                <button onclick="moveSlider(-1)" class="absolute left-2 md:left-[-25px] top-[144px] -translate-y-1/2 z-30 bg-white/90 p-3 rounded-full shadow-xl border border-slate-100 hover:bg-slate-900 hover:text-white transition block" aria-label="Projet précédent">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
                 </button>
 
                 <div id="project-track" class="flex gap-8 overflow-x-hidden scroll-smooth">
                     <a href="projet-valmont.html" class="project-item min-w-full md:min-w-[calc((100%-64px)/3)] bg-white rounded-sm overflow-hidden group/item border border-slate-50 transition-all hover:shadow-lg block">
-                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-contemporaine-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
-                             alt="Résidence Valmont - Architecture contemporaine de luxe à Sainte-Foy" 
+                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-contemporaine-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp"
+                             alt="Résidence Valmont - Projet résidentiel haut de gamme à Sainte-Foy"
                              class="w-full h-72 object-cover transition-transform duration-500 group-hover/item:scale-110">
                         <div class="p-5 border-t border-slate-100">
                             <p class="text-xs font-bold uppercase tracking-[0.2em] text-slate-700">Résidence Valmont</p>
@@ -217,8 +253,8 @@
                     </a>
 
                     <a href="projet-rochelle.html" class="project-item min-w-full md:min-w-[calc((100%-64px)/3)] bg-white rounded-sm overflow-hidden group/item border border-slate-50 transition-all hover:shadow-lg block">
-                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/salle-a-manger-aire-ouverte-rochelle-sainte-foy-quebec-vibatis.webp" 
-                             alt="Espace Rochelle - Design intérieur aire ouverte à Québec" 
+                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/salle-a-manger-aire-ouverte-rochelle-sainte-foy-quebec-vibatis.webp"
+                             alt="Espace Rochelle - Projet résidentiel à Québec"
                              class="w-full h-72 object-cover transition-transform duration-500 group-hover/item:scale-110">
                         <div class="p-5 border-t border-slate-100">
                             <p class="text-xs font-bold uppercase tracking-[0.2em] text-slate-700">Espace Rochelle</p>
@@ -226,8 +262,8 @@
                     </a>
 
                     <a href="projet-norr.html" class="project-item min-w-full md:min-w-[calc((100%-64px)/3)] bg-white rounded-sm overflow-hidden group/item border border-slate-50 transition-all hover:shadow-lg block">
-                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/vivre-au-pied-des-montagnes-quartier-norr-saint-ferreol-les-neiges.webp" 
-                             alt="Quartier NØRR - Maisons jumelées neuves à Saint-Ferréol" 
+                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/vivre-au-pied-des-montagnes-quartier-norr-saint-ferreol-les-neiges.webp"
+                             alt="Quartier NØRR - Maisons jumelées neuves à Saint-Ferréol-les-Neiges"
                              class="w-full h-72 object-cover transition-transform duration-500 group-hover/item:scale-110">
                         <div class="p-5 border-t border-slate-100">
                             <p class="text-xs font-bold uppercase tracking-[0.2em] text-[#C5A059]">Quartier NØRR</p>
@@ -235,8 +271,8 @@
                     </a>
 
                     <a href="projet-sieur-d-argenteuil.html" class="project-item min-w-full md:min-w-[calc((100%-64px)/3)] bg-white rounded-sm overflow-hidden group/item border border-slate-50 transition-all hover:shadow-lg block">
-                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-neuve-design-entree-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp" 
-                             alt="Sieur d'Argenteuil - Maison neuve au design d'architecte à Sainte-Foy" 
+                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-neuve-design-entree-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp"
+                             alt="Sieur d'Argenteuil - Projet résidentiel à Sainte-Foy"
                              class="w-full h-72 object-cover transition-transform duration-500 group-hover/item:scale-110">
                         <div class="p-5 border-t border-slate-100">
                             <p class="text-xs font-bold uppercase tracking-[0.2em] text-slate-700">Sieur d'Argenteuil</p>
@@ -244,16 +280,16 @@
                     </a>
 
                     <a href="projet-granites.html" class="project-item min-w-full md:min-w-[calc((100%-64px)/3)] bg-white rounded-sm overflow-hidden group/item border border-slate-50 transition-all hover:shadow-lg block">
-                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-granites-lac-beauport-quebec-vibatis.webp" 
-                             alt="Rénovation Lac-Beauport - Architecture contemporaine majeure par Vibatis" 
+                        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-granites-lac-beauport-quebec-vibatis.webp"
+                             alt="Projet Granites - Résidence à Lac-Beauport"
                              class="w-full h-72 object-cover transition-transform duration-500 group-hover/item:scale-110">
                         <div class="p-5 border-t border-slate-100">
-                            <p class="text-xs font-bold uppercase tracking-[0.2em] text-slate-700">Rénovation Lac-Beauport</p>
+                            <p class="text-xs font-bold uppercase tracking-[0.2em] text-slate-700">Projet Granites</p>
                         </div>
                     </a>
                 </div>
 
-                <button onclick="moveSlider(1)" class="absolute right-2 md:right-[-25px] top-[144px] -translate-y-1/2 z-30 bg-white/90 p-3 rounded-full shadow-xl border border-slate-100 hover:bg-slate-900 hover:text-white transition block">
+                <button onclick="moveSlider(1)" class="absolute right-2 md:right-[-25px] top-[144px] -translate-y-1/2 z-30 bg-white/90 p-3 rounded-full shadow-xl border border-slate-100 hover:bg-slate-900 hover:text-white transition block" aria-label="Projet suivant">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
                 </button>
             </div>
@@ -262,6 +298,7 @@
 
     <footer id="contact" class="py-16 text-center border-t border-slate-100 bg-white">
         <p class="text-xl font-bold text-slate-800">vibatis1@gmail.com</p>
+        <p class="text-sm text-slate-500 mt-3">Promotion immobilière à Québec</p>
         <p class="text-xs text-slate-400 mt-4 uppercase tracking-widest">© 2026 Vibatis Promotion Inc.</p>
     </footer>
 
@@ -280,23 +317,31 @@
         const items = [...track.querySelectorAll('.project-item')];
         items.forEach(item => { track.appendChild(item.cloneNode(true)); });
         for (let i = items.length - 1; i >= 0; i--) { track.insertBefore(items[i].cloneNode(true), track.firstChild); }
+
         const getStepWidth = () => items[0].offsetWidth + 32;
+
         function resetToCenter() {
             track.style.scrollBehavior = 'auto';
             track.scrollLeft = items.length * getStepWidth();
         }
+
         window.addEventListener('load', resetToCenter);
+
         let isMoving = false;
+
         function moveSlider(direction) {
             if (isMoving) return;
             isMoving = true;
+
             const step = getStepWidth();
             track.style.scrollBehavior = 'smooth';
             track.scrollLeft += (direction * step);
+
             setTimeout(() => {
                 const current = track.scrollLeft;
                 const totalWidth = items.length * step;
                 const tolerance = step / 2;
+
                 if (current >= totalWidth * 2 - tolerance) {
                     track.style.scrollBehavior = 'auto';
                     track.scrollLeft = current - totalWidth;
@@ -304,9 +349,11 @@
                     track.style.scrollBehavior = 'auto';
                     track.scrollLeft = current + totalWidth;
                 }
+
                 isMoving = false;
             }, 600);
         }
+
         let resizeTimer;
         window.addEventListener('resize', () => {
             clearTimeout(resizeTimer);
