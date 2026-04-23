@@ -3,35 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <title>Redirection Vibatis...</title>
-  <meta name="robots" content="noindex">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- IMPORTANT SEO -->
+  <meta name="robots" content="noindex, follow">
 
   <script>
     const redirects = {
-      // anciennes pages PHP
+      // anciennes pages principales -> accueil
       "/nous.php": "/",
       "/projets.php": "/",
       "/index.php": "/",
+
+      // contact
       "/contact.php": "/contact.html",
 
+      // VALMONT
       "/projet-valmont.php": "/projet-valmont.html",
+      "/maison-valmont.php": "/projet-valmont.html",
+      "/valmont.php": "/projet-valmont.html",
+
+      // SIEUR D'ARGENTEUIL
       "/projet-sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+      "/sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+      "/maison-sieur-d-argenteuil.php": "/projet-sieur-d-argenteuil.html",
+
+      // GRANITES
       "/projet-granites.php": "/projet-granites.html",
+      "/maison-granites.php": "/projet-granites.html",
+      "/granites.php": "/projet-granites.html",
+
+      // ROCHELLE
       "/projet-rochelle.php": "/projet-rochelle.html",
-
-      // URLs propres / nouvelles tentées par Google ou par toi
-      "/nous": "/",
-      "/projets": "/",
-      "/contact": "/contact.html",
-
-      "/maison-de-valmont": "/projet-valmont.html",
-      "/maison-du-sieur-dargenteuil": "/projet-sieur-d-argenteuil.html",
-      "/maison-des-granites": "/projet-granites.html",
-      "/maison-de-la-rochelle": "/projet-rochelle.html"
+      "/maison-rochelle.php": "/projet-rochelle.html",
+      "/rochelle.php": "/projet-rochelle.html"
     };
 
-    let path = window.location.pathname.replace(/\/+$/, "");
+    let path = window.location.pathname;
+
+    // Nettoyage des slashs
+    path = path.replace(/\/+$/, "");
     if (path === "") path = "/";
+
+    // 🔥 Gestion .html automatique
+    if (!redirects[path] && !path.endsWith(".html")) {
+      const htmlVersion = path + ".html";
+      if (htmlVersion in redirects) {
+        path = htmlVersion;
+      }
+    }
 
     const target = redirects[path];
 
@@ -42,12 +61,12 @@
 
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
       background: #111;
       color: #fff;
       text-align: center;
-      padding: 80px 20px;
+      padding-top: 80px;
+      margin: 0;
     }
 
     a {
@@ -55,6 +74,7 @@
     }
   </style>
 </head>
+
 <body>
   <h1>Page non trouvée</h1>
   <p>Redirection automatique si une correspondance existe...</p>
