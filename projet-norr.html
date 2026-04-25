@@ -9,6 +9,8 @@
     <meta name="description" content="Vivez au pied des pentes au Quartier NØRR. Maisons scandinaves à Saint-Ferréol-les-Neiges. Achat sur plan avec personnalisation de votre design intérieur.">
 
     <link rel="canonical" href="https://vibatis.com/projet-norr.html">
+    <meta name="robots" content="index, follow">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .parallax-bg {
@@ -19,6 +21,26 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        .mobile-facade-image {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .parallax-bg {
+                background-attachment: scroll;
+                background-position: center center;
+                background-size: 280% auto;
+                background-repeat: no-repeat;
+                background-color: #000;
+                height: 55vh;
+            }
+
+            .mobile-facade-image {
+                display: block;
+            }
+        }
+
         body { -webkit-user-select: none; -ms-user-select: none; user-select: none; }
         img { -webkit-user-drag: none; user-drag: none; pointer-events: none; }
     </style>
@@ -67,6 +89,13 @@
         <div class="bg-[#C5A059]/10 py-4 text-center text-[#C5A059] text-xs uppercase font-bold tracking-[0.2em]">Personnalisation & Options de décoration (Bois et Poutrelles)</div>
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-maison-neuve-interieur-salle-a-manger-cuisine-quartier-norr-saint-ferreol-les-neiges.webp" alt="Option de personnalisation cuisine et salle à manger avec bois" class="w-full h-auto">
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-maison-jumelee-neuve-salon-avec-poutrelles-quartier-norr-saint-ferreol-les-neiges.webp" alt="Option salon avec poutrelles au plafond Quartier Nørr" class="w-full h-auto">
+    </section>
+
+    <section class="mobile-facade-image bg-white py-2">
+        <img 
+            src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/vivre-au-pied-des-montagnes-quartier-norr-saint-ferreol-les-neiges.webp"
+            alt="Maisons scandinaves Quartier NØRR à Saint-Ferréol-les-Neiges au pied des montagnes"
+            class="w-full h-auto">
     </section>
 
     <footer class="py-12 bg-white text-center border-t border-slate-100 font-light text-slate-400 text-sm">
