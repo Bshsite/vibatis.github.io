@@ -9,6 +9,7 @@
     <meta name="description" content="Découvrez le projet Rochelle, un projet résidentiel signé Vibatis Promotion Inc à Sainte-Foy, Québec. Design contemporain, qualité de réalisation et confort haut de gamme.">
 
     <link rel="canonical" href="https://vibatis.com/projet-rochelle.html">
+    <meta name="robots" content="index, follow">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -20,6 +21,25 @@
             background-repeat: no-repeat;
             background-size: cover;
         }
+
+        .mobile-facade-image {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .parallax-bg {
+                background-attachment: scroll;
+                background-position: center center;
+                background-size: 280% auto;
+                background-repeat: no-repeat;
+                background-color: #000;
+                height: 55vh;
+            }
+
+            .mobile-facade-image {
+                display: block;
+            }
+        }       
 
         body { -webkit-user-select: none; -ms-user-select: none; user-select: none; }
         img { -webkit-user-drag: none; user-drag: none; pointer-events: none; }
@@ -86,6 +106,13 @@
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/construction-moderne-chantier-rochelle-sainte-foy-quebec-vibatis.webp" 
             alt="Suivi de chantier de construction résidentielle Vibatis" 
             class="w-full h-auto rounded-sm shadow-sm">
+    </section>
+
+    <section class="mobile-facade-image bg-white py-2">
+        <img 
+            src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-unifamiliale-moderne-rochelle-sainte-foy-quebec-vibatis.webp"
+            alt="Façade maison moderne Rochelle à Sainte-Foy Québec - Vibatis Promotion Inc"
+            class="w-full h-auto">
     </section>
 
     <footer class="py-12 bg-white text-center border-t border-slate-100 font-light text-slate-400 text-sm">
