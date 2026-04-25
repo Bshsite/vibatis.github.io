@@ -11,6 +11,7 @@
     <meta name="description" content="Contactez Vibatis Promotion Inc pour vos projets immobiliers à Québec, Sainte-Foy et Lac-Beauport. Promoteur spécialisé en projets résidentiels haut de gamme.">
 
     <link rel="canonical" href="https://vibatis.com/contact.html">
+    <meta name="robots" content="index, follow">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -21,6 +22,17 @@
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
+        }
+
+        @media (max-width: 768px) {
+            .parallax-bg {
+                background-attachment: scroll;
+                background-position: center center;
+                background-size: 280% auto;
+                background-repeat: no-repeat;
+                background-color: #000;
+                height: 55vh;
+            }
         }
 
         /* PROTECTION COPIE */
