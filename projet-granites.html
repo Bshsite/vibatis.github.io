@@ -10,6 +10,7 @@
     <meta name="keywords" content="Vibatis, Vibatis Promotion Inc, projet des Granites, rénovation résidentielle Québec, rénovation Lac-Beauport, immobilier haut de gamme Québec, maison rénovée contemporaine">
 
     <link rel="canonical" href="https://vibatis.com/projet-granites.html">
+    <meta name="robots" content="index, follow">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -20,6 +21,25 @@
             background-position: center 40px;
             background-repeat: no-repeat;
             background-size: cover;
+        }
+
+        .mobile-facade-image {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .parallax-bg {
+                background-attachment: scroll;
+                background-position: center center;
+                background-size: 280% auto;
+                background-repeat: no-repeat;
+                background-color: #000;
+                height: 55vh;
+            }
+
+            .mobile-facade-image {
+                display: block;
+            }
         }
 
         body { -webkit-user-select: none; -ms-user-select: none; user-select: none; }
@@ -65,6 +85,13 @@
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-contemporaine-entree-salon-granites-lac-beauport-quebec-vibatis.webp" alt="Entrée et salon design contemporain" class="w-full h-auto">
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/renovation-maison-contemporaine-salle-a-manger-granites-lac-beauport-quebec-vibatis.webp" alt="Salle à manger design rénovée" class="w-full h-auto">
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-renovation-cuisine-granites-lac-beauport-quebec-vibatis.webp" alt="Cuisine moderne rénovation Granites" class="w-full h-auto">
+    </section>
+
+    <section class="mobile-facade-image bg-white py-2">
+        <img 
+            src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-unifamiliale-renovation-granites-lac-beauport-quebec-vibatis.webp"
+            alt="Façade maison rénovée contemporaine Granites à Lac-Beauport Québec - Vibatis Promotion Inc"
+            class="w-full h-auto">
     </section>
 
     <footer class="py-12 bg-white text-center border-t border-slate-100 font-light text-slate-400 text-sm">
