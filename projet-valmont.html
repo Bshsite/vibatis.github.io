@@ -24,7 +24,15 @@
             background-attachment: fixed;
             background-position: center 40px;
             background-repeat: no-repeat;
-            background-size: 100% auto;
+            background-size: cover;
+        }
+
+        /* Correction mobile */
+        @media (max-width: 768px) {
+            .parallax-bg {
+                background-attachment: scroll; /* évite bug zoom mobile */
+                background-position: center center; /* recentre l’image */
+            }
         }
 
         body {
