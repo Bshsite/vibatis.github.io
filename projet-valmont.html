@@ -19,23 +19,22 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .parallax-bg {
-            background-color: #000; /* Fond noir en attendant l'image */
+            background-color: #000;
             background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-contemporaine-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp');
-            background-attachment: fixed;
-            background-position: center 40px;
+            background-attachment: scroll;
+            background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 90% auto;
         }
 
-        /* Correction mobile */
         @media (max-width: 768px) {
             .parallax-bg {
                 background-attachment: scroll;
-                background-position: bottom;
+                background-position: center center;
                 background-size: cover;
             }
         }
-
+        
         body {
             -webkit-user-select: none;
             -ms-user-select: none;
