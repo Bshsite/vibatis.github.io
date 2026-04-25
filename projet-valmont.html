@@ -4,45 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Projet Valmont | Vibatis Promotion Inc | Projet résidentiel haut de gamme à Sainte-Foy, Québec</title>
+    <title>Résidence Valmont à Sainte-Foy | Maison de prestige à Québec | Vibatis Promotion Inc</title>
     <link rel="icon" href="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/icon-vibatis.webp" type="image/webp">
-    <meta name="description" content="Découvrez le projet Valmont, un projet résidentiel haut de gamme signé Vibatis Promotion Inc à Sainte-Foy, Québec. Design contemporain, qualité de réalisation et environnement privilégié.">
-    <meta name="keywords" content="Vibatis, Vibatis Promotion Inc, projet Valmont, promotion immobilière Québec, projet résidentiel Sainte-Foy, maison neuve Québec, immobilier haut de gamme Québec">    
+    <meta name="description" content="Découvrez la Résidence Valmont à Sainte-Foy, Québec : maison de prestige contemporaine signée Vibatis Promotion Inc, avec architecture haut de gamme, grandes baies vitrées, piscine et intégration au terrain boisé.">
+    <meta name="keywords" content="Résidence Valmont, Vibatis Promotion Inc, maison de prestige Sainte-Foy, maison de luxe Québec, architecture contemporaine Québec, projet résidentiel haut de gamme Québec, maison neuve Sainte-Foy, promotion immobilière Québec">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Vibatis Promotion Inc">
     
     <link rel="canonical" href="https://vibatis.com/projet-valmont.html">
 
-    <meta property="og:title" content="Projet Valmont | Vibatis Promotion Inc | Projet résidentiel à Sainte-Foy, Québec">
-    <meta property="og:description" content="Découvrez le projet Valmont, un projet résidentiel haut de gamme signé Vibatis Promotion Inc à Sainte-Foy, Québec.">
+    <meta property="og:title" content="Résidence Valmont à Sainte-Foy | Maison de prestige à Québec">
+    <meta property="og:description" content="Projet résidentiel haut de gamme signé Vibatis Promotion Inc à Sainte-Foy, Québec : architecture contemporaine, baies vitrées, piscine et environnement boisé.">
     <meta property="og:image" content="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-contemporaine-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp">
     <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vibatis.com/projet-valmont.html">
+    <meta property="og:locale" content="fr_CA">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .parallax-bg {
             background-color: #000;
             background-image: url('https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-contemporaine-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp');
-            background-attachment: scroll;
-            background-position: center center;
+            background-attachment: fixed;
+            background-position: center 50px;
             background-repeat: no-repeat;
-            background-size: 100% auto;
+            background-size: cover;
+        }
+
+        .mobile-facade-image {
+            display: none;
         }
 
         @media (max-width: 768px) {
             .parallax-bg {
                 background-attachment: scroll;
                 background-position: center center;
-                background-size: 200% auto;
+                background-size: cover;
                 background-repeat: no-repeat;
                 background-color: #000;
-                height: 60vh;
+                height: 55vh;
+            }
+
+            .mobile-facade-image {
+                display: block;
             }
         }
-        
+
         body {
             -webkit-user-select: none;
             -ms-user-select: none;
             user-select: none;
         }
+
         img {
             -webkit-user-drag: none;
             user-drag: none;
@@ -54,13 +67,13 @@
 
     <header class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-100">
         <nav class="max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
-            <a href="index.html" class="block">
+            <a href="index.html" class="block" aria-label="Retour à l'accueil Vibatis">
                 <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/logo-vibatis.webp" 
-                     alt="Vibatis Architecture et Construction Logo" 
+                     alt="Logo Vibatis Promotion Inc" 
                      class="h-16 w-auto">
             </a>
             <a href="index.html" class="flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-[#C5A059] transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
                 Retour à l'accueil
             </a>
         </nav>
@@ -68,52 +81,66 @@
 
     <div class="h-24"></div> 
 
-    <section class="parallax-bg relative h-[80vh] flex items-center justify-center">
-        <div class="absolute inset-0 bg-black/15"></div> 
-        <h1 class="relative z-10 text-white text-4xl md:text-6xl font-light tracking-[0.3em] uppercase text-center px-4 drop-shadow-2xl">
-            Résidence Valmont
-        </h1>
-    </section>
+    <main>
+        <section class="parallax-bg relative h-[80vh] flex items-center justify-center" aria-label="Vue extérieure de la Résidence Valmont à Sainte-Foy">
+            <div class="absolute inset-0 bg-black/15"></div> 
+            <h1 class="relative z-10 text-white text-4xl md:text-6xl font-light tracking-[0.3em] uppercase text-center px-4 drop-shadow-2xl">
+                Résidence Valmont
+            </h1>
+        </section>
 
-    <section class="relative z-20 bg-black text-white py-24 shadow-[0_-20px_50px_rgba(0,0,0,0.3)]">
-        <div class="max-w-3xl mx-auto px-6 text-center">
-            <div class="w-16 h-px bg-[#C5A059] mx-auto mb-10"></div>
-            <h2 class="text-2xl md:text-3xl font-light mb-8 tracking-wide text-[#C5A059]">Maison de prestige à Sainte-Foy, Québec</h2>
-            <p class="leading-relaxed text-lg font-light text-[#C5A059]">
-                La Résidence Valmont s'intègre avec audace à la pente naturelle du terrain. Ce projet d'architecture contemporaine à Sainte-Foy mise sur de vastes baies vitrées pour abolir la limite entre l'intérieur luxueux et l'espace boisé environnant.
-            </p>
-        </div>
-    </section>
+        <section class="relative z-20 bg-black text-white py-24 shadow-[0_-20px_50px_rgba(0,0,0,0.3)]">
+            <div class="max-w-3xl mx-auto px-6 text-center">
+                <div class="w-16 h-px bg-[#C5A059] mx-auto mb-10"></div>
+                <h2 class="text-2xl md:text-3xl font-light mb-8 tracking-wide text-[#C5A059]">Maison de prestige à Sainte-Foy, Québec</h2>
+                <p class="leading-relaxed text-lg font-light text-[#C5A059]">
+                    La Résidence Valmont s'intègre avec audace à la pente naturelle du terrain. Ce projet d'architecture contemporaine à Sainte-Foy mise sur de vastes baies vitrées pour abolir la limite entre l'intérieur luxueux et l'espace boisé environnant.
+                </p>
+            </div>
+        </section>
 
-    <section class="bg-white flex flex-col gap-2 py-2">
-        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/cuisine-moderne-ilot-central-valmont-sainte-foy-quebec-vibatis.webp" 
-             alt="Cuisine moderne avec îlot central en quartz - Résidence Valmont Vibatis" class="w-full h-auto">
-    </section>
+        <section class="bg-white flex flex-col gap-2 py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/cuisine-moderne-ilot-central-valmont-sainte-foy-quebec-vibatis.webp" 
+                 alt="Cuisine moderne avec îlot central en quartz dans la Résidence Valmont à Sainte-Foy" 
+                 class="w-full h-auto">
+        </section>
 
-    <section class="bg-white flex flex-col gap-2 py-2">
-        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/mainson-neuve-de-luxe-vide-sur-sejour-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
-             alt="Architecture intérieure de luxe avec plafond cathédrale et vide sur séjour" class="w-full h-auto">
-    </section>
+        <section class="bg-white flex flex-col gap-2 py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/mainson-neuve-de-luxe-vide-sur-sejour-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
+                 alt="Vide sur séjour avec plafond cathédrale dans une maison de prestige à Québec" 
+                 class="w-full h-auto">
+        </section>
 
-    <section class="bg-white flex flex-col gap-2 py-2">
-        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-prestige-sejour-aire-ouverte-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
-             alt="Salon aire ouverte avec grandes fenêtres panoramiques sur la forêt" class="w-full h-auto">
-    </section>
+        <section class="bg-white flex flex-col gap-2 py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-prestige-sejour-aire-ouverte-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
+                 alt="Séjour à aire ouverte avec grandes fenêtres panoramiques sur la forêt à Sainte-Foy" 
+                 class="w-full h-auto">
+        </section>
 
-    <section class="bg-white flex flex-col gap-2 py-2">
-        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/amenagement-exterieur-piscine-valmont-sainte-foy-quebec-vibatis.webp" 
-             alt="Aménagement extérieur haut de gamme avec piscine creusée et terrasse contemporaine" class="w-full h-auto">
-    </section>
-    
-    <section class="bg-white flex flex-col gap-2 py-2">
-        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-unifamiliale-chambre-des-maitres-moderne-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
-             alt="Chambre des maîtres moderne avec design épuré et éclairage encastré" class="w-full h-auto">
-    </section>  
+        <section class="bg-white flex flex-col gap-2 py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/amenagement-exterieur-piscine-valmont-sainte-foy-quebec-vibatis.webp" 
+                 alt="Aménagement extérieur haut de gamme avec piscine creusée de la Résidence Valmont" 
+                 class="w-full h-auto">
+        </section>
+        
+        <section class="bg-white flex flex-col gap-2 py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-unifamiliale-chambre-des-maitres-moderne-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
+                 alt="Chambre des maîtres moderne dans une maison unifamiliale haut de gamme à Sainte-Foy" 
+                 class="w-full h-auto">
+        </section>  
 
-    <section class="bg-white flex flex-col gap-2 py-2">
-        <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-maison-neuve-salle-de-bain-moderne-valmont-sainte-foy-quebec-vibatis.webp" 
-             alt="Salle de bain luxueuse avec douche italienne et matériaux nobles" class="w-full h-auto">
-    </section>
+        <section class="bg-white flex flex-col gap-2 py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-maison-neuve-salle-de-bain-moderne-valmont-sainte-foy-quebec-vibatis.webp" 
+                 alt="Salle de bain moderne avec douche italienne et matériaux nobles dans la Résidence Valmont" 
+                 class="w-full h-auto">
+        </section>
+
+        <section class="mobile-facade-image bg-white py-2">
+            <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-contemporaine-de-luxe-valmont-sainte-foy-quebec-quebec-vibatis.webp" 
+                 alt="Façade contemporaine complète de la Résidence Valmont à Sainte-Foy, Québec, maison de prestige signée Vibatis Promotion Inc" 
+                 class="w-full h-auto">
+        </section>
+    </main>
 
     <footer class="py-12 bg-white text-center border-t border-slate-100 font-light text-slate-400 text-sm">
         <p>© 2026 VIBATIS PROMOTION INC. | Architecture et Construction à Québec</p>
