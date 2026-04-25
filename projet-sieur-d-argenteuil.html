@@ -11,6 +11,7 @@
     <meta name="keywords" content="Vibatis, Vibatis Promotion Inc, projet résidentiel Québec, promotion immobilière Québec, maison neuve Sainte-Foy, immobilier haut de gamme Québec">
 
     <link rel="canonical" href="https://vibatis.com/projet-sieur-d-argenteuil.html">
+    <meta name="robots" content="index, follow">
 
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -21,6 +22,25 @@
             background-position: center 40px;
             background-repeat: no-repeat;
             background-size: cover;
+        }
+
+        .mobile-facade-image {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .parallax-bg {
+                background-attachment: scroll;
+                background-position: center center;
+                background-size: 280% auto;
+                background-repeat: no-repeat;
+                background-color: #000;
+                height: 55vh;
+            }
+
+            .mobile-facade-image {
+                display: block;
+            }
         }
 
         body { -webkit-user-select: none; -ms-user-select: none; user-select: none; }
@@ -68,6 +88,13 @@
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-prestige-design-salle-de-bain-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp" alt="Salle de bain haut de gamme design Québec" class="w-full h-auto">
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-de-luxe-walk-in-d-argenteuil-sainte-foy-quebec-vibatis.webp" alt="Walk-in spacieux maison de prestige" class="w-full h-auto">
         <img src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/maison-neuve-piscine-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp" alt="Aménagement extérieur avec piscine Sieur d'Argenteuil" class="w-full h-auto">
+    </section>
+
+    <section class="mobile-facade-image bg-white py-2">
+        <img 
+            src="https://raw.githubusercontent.com/Bshsite/vibatis.github.io/gh-pages/images/architecture-maison-neuve-sieur-d-argenteuil-sainte-foy-quebec-vibatis.webp"
+            alt="Maison neuve contemporaine Sieur d'Argenteuil à Sainte-Foy Québec - Vibatis"
+            class="w-full h-auto">
     </section>
 
     <section class="bg-black text-white py-20">
